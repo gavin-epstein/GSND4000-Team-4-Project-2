@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: RageManager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Add
+      Rage","label":null,"summary":null,"hideLabel":false},{"key":"Remove Rage","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"Change","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":58.46899,"y":-86.81311},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"73596ebd-c2e9-48bd-b141-791193464dda","$version":"A","$type":"Unity.VisualScripting.Start","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-48.0,"y":-144.0},"guid":"3d6cd526-3146-4bd4-9fb3-6dce26a1a2cd","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"Enter","guid":"dabc1201-1b1f-45c6-a205-ff7b5caa13be","$type":"Unity.VisualScripting.ControlConnection"},{"position":{"xMin":-240.0,"yMin":-192.0,"xMax":120.0,"yMax":-36.0},"label":"Create
+      Singleton","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"cbd666e1-3f2f-4bf5-b9f0-9b4e39844c30","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 70fdb64c36264ba43ae051b47f51ac5a, type: 2}
